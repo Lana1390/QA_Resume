@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@200;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+html,
+body{
+   font-family: 'Montserrat', sans-serif;
+   color: #272727;
+
+}
+
+.flex-container{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   background-color:rgb(246, 246, 246);
+   max-width: 1250px;
+   align-items:center;
+   margin-top: 10px;
+   margin-right: 150px;
+   margin-left: 100px;
+   margin-bottom: 10px;
+   padding: 5px;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(83, 83, 83, 0.19);
+}
+
+.my-photo{
+   position: relative; 
+   width: 370px;
+   padding-right: 0px;
+}
+
+.left-side {
+   position: relative;
+   
+   background-image: linear-gradient(rgb(156, 156, 156), #FFFFFF);
+}
+
+.right-side{
+   position: relative;
+   padding-top: 70px;
+   margin-left: 15px;
+}
+
+.right-side-title {
+   color: #bebebe;
+}
+
+.select-ln{
+   font-size: 16px;
+   text-align: center;
+   height: 30px;
+   width: 20%;
+   border-style: solid;
+   border-radius:15px;
+   border-color: #272727;
+   background-color: white;
+   color:#272727;
+   transition-duration: 0.2s;
+   cursor: pointer;
+}
+
+.select-ln:hover {
+   outline-color:  #272727;
+   opacity: 0.7;
+   border-color:#272727 ;
+   background-color: rgb(156, 156, 156);
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+.AboutMe{
+   line-height: 22px;
+}
+
+h1{
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+h3{
+   font-size: 20px;
+}
+
+#ndata {
+  text-align: right;
+  color: #a6a6a6;
+}
+
