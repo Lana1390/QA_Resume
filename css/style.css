@@ -9,11 +9,12 @@ body{
 
 .flex-container{
    display: flex;
-   justify-content: flex-start;
+   
    flex-direction: row;
+   justify-content:flex-start;
    background-color:rgb(246, 246, 246);
-   max-width: 1250px;
-   align-items:center;
+   max-width: 1200px;
+   align-items:inherit;
    margin-top: 10px;
    margin-right: 150px;
    margin-left: 100px;
@@ -23,21 +24,19 @@ body{
 }
 
 .my-photo{
-   position: relative; 
-   width: 370px;
-   padding-right: 0px;
+   width: 300px;
 }
 
 .left-side {
    position: relative;
-   
    background-image: linear-gradient(rgb(156, 156, 156), #FFFFFF);
+   
 }
 
 .right-side{
    position: relative;
-   padding-top: 70px;
    margin-left: 15px;
+   
 }
 
 .right-side-title {
@@ -77,10 +76,5 @@ h1{
 
 h3{
    font-size: 20px;
-}
-
-#ndata {
-  text-align: right;
-  color: #a6a6a6;
 }
 

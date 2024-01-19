@@ -17,7 +17,7 @@
 <body>
 
 <div class="flex-container">
-       
+ <meta name="viewport" content="width=device-width, inital-scale=1.0">     
     <div class="left-side" id="eng1" style="flex-grow: 1">
          <div class="Main-info">   
             <img class="my-photo"  src="image/photo_.jpg" alt="My photo"/> 
@@ -77,10 +77,8 @@
              <li><span class="soft-skills-text">Adaptability and eagerness to learn</span></li>
              <li><span class="soft-skills-text">Understanding of responsibility</span></li>
          </ul>
-         <div class="code">
-            <h3>View CV source code:</h3>
-            <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
-        </div> 
+         <p id="demoJS"></p>
+
        </div>
     </div>
 
@@ -143,10 +141,8 @@
             <li><span class="soft-skills-text">Адаптивність і готовність до навчання</span></li>
             <li><span class="soft-skills-text">Розуміння відповідальності</span></li>
         </ul>
-        <div class="code">
-            <h4>Переглянути вихідний код CV:</h4>
-            <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
-         </div>  
+        <p id="demoJS1"></p>
+ 
     </div>
      </div>
 
@@ -280,20 +276,10 @@
                     <span class="Other">Specialized YouTube channels and other network resources</span>
                 </li>
             </ul>
-        <p id="demoJS"></p>
-        
-    <script>
-        let head = "Language skills:";
-        let langs = ["Ukrainian - Advanced", "English - Intermediate",
-        "Spanish - Elementary" ];
-        let LBlock = `<h4>${head}</h4><ul>`;
-        for (const x of langs) {
-            LBlock += `<li>${x}</li}>`;
-        };
-        LBlock +=`</ul>`;
-        document.getElementById("demoJS").innerHTML = LBlock;
-    </script> 
-
+            <div class="code">
+                <h3>View CV source code:</h3>
+                <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
+            </div> 
 
         </div>
     </div>
@@ -406,7 +392,11 @@
                       <span class="Other">Спеціалізовані YouTube канали та інші джерела мережі</span>
                   </li>
               </ul>
-              <p id="demoJS1"></p>
+              <div class="code">
+                <h4>Переглянути вихідний код CV:</h4>
+                <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
+             </div> 
+              
           <script>
       
               let head1 = "Знання мови:";
@@ -421,16 +411,21 @@
               document.getElementById("demoJS1").innerHTML = LBlock1; 
           </script>
 
+            <script>
+                let head = "Language skills:";
+                let langs = ["Ukrainian - Advanced", "English - Intermediate",
+                "Spanish - Elementary" ];
+                let LBlock = `<h4>${head}</h4><ul>`;
+                for (const x of langs) {
+                    LBlock += `<li>${x}</li}>`;
+                };
+                LBlock +=`</ul>`;
+                document.getElementById("demoJS").innerHTML = LBlock;
+            </script> 
 
 </div>
 </div>
-<p id="ndata">Data</p>
-
-<script>
-    const d = new Date();
-    document.getElementById("ndata").innerHTML=d.toDateString();
-</script>
-    </div>
+</div>
 </div>
 </body>
 </html>
