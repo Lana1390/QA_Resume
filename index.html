@@ -19,10 +19,10 @@
 <div class="flex-container">
  <meta name="viewport" content="width=device-width, inital-scale=1.0">     
     <div class="left-side" id="eng1" style="flex-grow: 1">
-         <div class="Main-info">   
+         <div class="foto">   
             <img class="my-photo"  src="image/photo_.jpg" alt="My photo"/> 
          </div>
-       <div class="TechToolsDoc"  >
+       <div class="techToolsDoc"  >
               <h3 class="tech-tools-title">
         Technologies and tools
              </h3>
@@ -37,6 +37,8 @@
              <li><span class="tech-doc-text">HTML5/CSS3</span></li>
              <li><span class="tech-doc-text">MSExcel</span></li>
              <li><span class="tech-doc-text">Selenium IDE</span></li>
+             <li><span class="tech-doc-text">Chrome DevTools</span></li>
+             <li><span class="tech-doc-text">Postman API</span></li>
          </ul>
             <h3 class="tech-doc-title">
         Test documentation
@@ -65,12 +67,12 @@
              <li><span class="tech-oth-text">Kanban</span></li>
          </ul>
 
-        <h3 class="Soft skills">
+        <h3 class="soft-skills">
          Soft skills
          </h3>
          <ul>
              <li><span class="soft-skills-text">Excellent communication</span></li>
-             <li><span class="soft-skills-text">Strong problem-solving and analytical skills</span></li>
+             <li><span class="soft-skills-text">Efficient problem-solving skills</span></li>
              <li><span class="soft-skills-text">Attention to detail and accuracy</span></li>
              <li><span class="soft-skills-text">Self-motivated and organized</span></li>
              <li><span class="soft-skills-text">Collaborative and team-oriented</span></li>
@@ -83,10 +85,10 @@
     </div>
 
      <div class="left-side" id="ukr1" style="flex-grow: 1; display: none;">
-         <div class="Main-info">
+         <div class="foto">
             <img class="my-photo"  src="image/photo_.jpg" alt="My photo"/> 
          </div>
-    <div class="TechToolsDoc"  >
+    <div class="techToolsDoc"  >
         <h3 class="tech-tools-title">
             Технології та інструменти
         </h3>
@@ -101,6 +103,8 @@
             <li><span class="tech-doc-text">HTML5/CSS3</span></li>
             <li><span class="tech-doc-text">MSExcel</span></li>
             <li><span class="tech-doc-text">Selenium IDE</span></li>
+            <li><span class="tech-doc-text">Chrome DevTools</span></li>
+            <li><span class="tech-doc-text">Postman API</span></li>
         </ul>
         <h3 class="tech-doc-title">
             Тестова документація
@@ -129,12 +133,12 @@
             <li><span class="tech-oth-text">SCRUM</span></li>
             <li><span class="tech-oth-text">Kanban</span></li>
         </ul>
-        <h3 class="Soft skills">
+        <h3 class="soft-skills">
          Особисті якості
         </h3>
         <ul>
             <li><span class="soft-skills-text">Відмінні комунікативні навички</span></li>
-            <li><span class="soft-skills-text">Навички вирішення проблем та аналітичні навички</span></li>
+            <li><span class="soft-skills-text">Навички вирішення проблем</span></li>
             <li><span class="soft-skills-text">Увага до деталей і точність</span></li>
             <li><span class="soft-skills-text">Самомотивація та організованість</span></li>
             <li><span class="soft-skills-text">Орієнтація на співпрацю та роботу в команді</span></li>
@@ -142,35 +146,18 @@
             <li><span class="soft-skills-text">Розуміння відповідальності</span></li>
         </ul>
         <p id="demoJS1"></p>
- 
     </div>
      </div>
-
     <div class="right-side" style="flex-grow: 2">
         <select class="select-ln" id="language" onchange="langFunction()"> 
             <option value="eng">English</option> 
             <option value="ukr">Українська</option> 
           </select>
 
-        <script>
-          function langFunction ()   
-          {
-              if  (language.value == "ukr") for(i=1; i<=2; i++) {
-                                    document.getElementById("ukr"+i).style.display = "block";
-                                    document.getElementById("eng"+i).style.display = "none";
-                                    }
-                            else 
-                                  { for (i=1; i<=2; i++)
-                                   {document.getElementById("eng"+i).style.display = "block";
-                                    document.getElementById("ukr"+i).style.display = "none";
-                                    }
-                                  }
-          }
-          </script>
-
     <div id="eng2">
         <h3 class="right-side-title">Desired position: Trainee Test Engineer/Trainee QA Engineer</h3>
-        <div class="main">   
+        <h4 class="right-side-title">Remote</h4>
+        <div class="mainInfo">   
             <h1> 
                 Aleksandrova Svitlana
             </h1>
@@ -179,21 +166,17 @@
             </h3>
          <address> 
             <span class="contact-info">E-mail:</span>
-            <a class="contacts-link" href="mailto:shokolapka90@gmail.com" target="_blank">shokolapka90@gmail.com</a>
+            <a class="contacts-link" href="mailto:aleks.lana.1331@gmail.com" target="_blank">aleks.lana.1331@gmail.com</a>
          </address>
             <span class="contact-info">Country of origin:</span> Ukraine </br>
             <span class="contact-info">Country of temporary residence:</span> Spain
             <div>
-            <span class="tel" > Tel: </span>
-            <a class="contacts-link" href="tel:380631623503" target="_blank"> +38063-16-23-503</a>
-            </div>
-            <div>
             <span class="teleg" > Telegram: </span>
-             <a class="contacts-link" href="https://t.me/+380631623503" target="_blank"> +38063-16-23-503</a>
+             <a class="contacts-link" href="https://t.me/+380631623503" target="_blank"> @Aleksandrova_Lana13</a>
              </div>
         </div>
       
-        <div class="AboutMe">
+        <div class="aboutMe">
             <h3 class="AboutMe-title">
                  About me
             </h3>
@@ -204,7 +187,7 @@
                  I have experience in web and mobile testing using MantisBT, TesrRail, and Jira systems as part of a training course.
              </p>
         </div>
-        <div class="My-education">
+        <div class="myEducation">
             <h3 class="Education-title">
                   My education 
             </h3>
@@ -213,7 +196,7 @@
                   Accounting and Auditing
             </p>
         </div>
-        <div class="Work-expirience">
+        <div class="workExpirience">
              <h3 class="work-experience-title">
                     Work experience
             </h3>
@@ -230,7 +213,7 @@
                 <li><span class="work-experience-item">Maintenance of sole proprietorships of the 3rd group from the moment of their creation to closure.</span></li>
             </ul>
         </div>
-         <div class="Materials studied">
+         <div class="materialsStudied">
             <h3>Materials studied</h3>
             <h4>Books:</h4>
             <ul>
@@ -277,7 +260,7 @@
                 </li>
             </ul>
             <div class="code">
-                <h3>View CV source code:</h3>
+                <h4>View CV source code</h4>
                 <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
             </div> 
 
@@ -286,7 +269,8 @@
     
 <div id="ukr2" style="display: none;" >
         <h3 class="right-side-title">Бажана посада: Trainee Test Engineer/Trainee QA Engineer</h3>
-        <div class="main">
+        <h4 class="right-side-title">Дистанційно</h4>
+        <div class="mainInfo">
         <h1> 
             Александрова Світлана
         </h1>
@@ -295,31 +279,27 @@
         </h3>
      <address> 
         <span class="contact-info">E-mail:</span>
-        <a class="contacts-link" href="mailto:shokolapka90@gmail.com" target="_blank">shokolapka90@gmail.com</a>
+        <a class="contacts-link" href="mailto:aleks.lana.1331@gmail.com" target="_blank">aleks.lana.1331@gmail.com</a>
      </address>
         <span class="contact-info">Країна походження:</span> Україна </br>
         <span class="contact-info">Країна проживання:</span> Іспанія
         <div>
-        <span class="tel" > Тел.: </span>
-        <a class="contacts-link" href="tel:380631623503" target="_blank"> +38063-16-23-503</a>
-        </div>
-        <div>
         <span class="teleg" > Телеграм: </span>
-        <a class="contacts-link" href="https://t.me/+380631623503" target="_blank"> +38063-16-23-503</a>
+        <a class="contacts-link" href="https://t.me/+380631623503" target="_blank"> @Aleksandrova_Lana13</a>
         </div>
          </div>
-        <div class="AboutMe">
-            <h3 class="AboutMe-title">
+        <div class="aboutMe">
+            <h3 class="aboutMe-title">
                 Про мене
             </h3>
-            <p class="AboutMe-cont">
+            <p class="aboutMe-cont">
              Високомотивована та детально орієнтована людина з пристрастю до тестування програмного забезпечення.
              Я шукаю роботу QA Engineer, де я зможу застосувати свої знання теорії тестування, тестування мобільних та веб-додатків, SQL, JavaScript, HTML5, CSS3 та MSExcel.</br>
              Прагну вчитися та співпрацювати з командою і робити свій внесок в успіх програмних проектів.</br>
              Маю досвід веб та мобільного тестування з використанням систем MantisBT, TesrRail та Jira в рамках навчального курсу.
                 </p>
         </div>
-          <div class="My-education">
+          <div class="myEducation">
             <h3 class="Education-title">
              Освіта
             </h3>
@@ -329,7 +309,7 @@
             </p>
         </div>
       
-        <div class="Work-expirience">
+        <div class="workExpirience">
             <h3 class="work-experience-title">
              Досвід роботи
             </h3>
@@ -346,7 +326,7 @@
               <li><span class="work-experience-item">Супровід ФОП 3-ї групи від моменту створення до закриття.</span></li>
              </ul>
           </div>
-          <div class="Materials studied">
+          <div class="materialsStudied">
               <h3>Навчальні матеріали</h3>
               <h4>Книги:</h4>
               <ul>
@@ -393,16 +373,16 @@
                   </li>
               </ul>
               <div class="code">
-                <h4>Переглянути вихідний код CV:</h4>
+                <h4>Переглянути вихідний код CV</h4>
                 <a class="source_link" href="https://github.com/Lana1390/QACV.git" target="_blank">CV on GitHub.</a>
              </div> 
               
           <script>
       
-              let head1 = "Знання мови:";
+              let head1 = "Знання мови";
               let langs1 = ["Українська - поглиблений", "Англійська - середній",
               "Іспанська - базовий" ];         
-              let LBlock1 = `<h4>${head1}</h4><ul>`;
+              let LBlock1 = `<h3>${head1}</h3><ul>`;
               for (const x of langs1) {
                   LBlock1 += `<li>${x}</li}>`;
               };
@@ -412,16 +392,32 @@
           </script>
 
             <script>
-                let head = "Language skills:";
+                let head = "Language skills";
                 let langs = ["Ukrainian - Advanced", "English - Intermediate",
                 "Spanish - Elementary" ];
-                let LBlock = `<h4>${head}</h4><ul>`;
+                let LBlock = `<h3>${head}</h3><ul>`;
                 for (const x of langs) {
                     LBlock += `<li>${x}</li}>`;
                 };
                 LBlock +=`</ul>`;
                 document.getElementById("demoJS").innerHTML = LBlock;
             </script> 
+
+<script>
+    function langFunction ()   
+    {
+        if  (language.value == "ukr") for(i=1; i<=2; i++) {
+                              document.getElementById("ukr"+i).style.display = "block";
+                              document.getElementById("eng"+i).style.display = "none";
+                              }
+                      else 
+                            { for (i=1; i<=2; i++)
+                             {document.getElementById("eng"+i).style.display = "block";
+                              document.getElementById("ukr"+i).style.display = "none";
+                              }
+                            }
+    }
+    </script>
 
 </div>
 </div>

@@ -9,17 +9,13 @@ body{
 
 .flex-container{
    display: flex;
-   
    flex-direction: row;
    justify-content:flex-start;
    background-color:rgb(246, 246, 246);
    max-width: 1200px;
    align-items:inherit;
-   margin-top: 10px;
-   margin-right: 150px;
-   margin-left: 100px;
-   margin-bottom: 10px;
-   padding: 5px;
+   margin-top: 5px;
+   margin-left: 5px;
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(83, 83, 83, 0.19);
 }
 
@@ -30,13 +26,11 @@ body{
 .left-side {
    position: relative;
    background-image: linear-gradient(rgb(156, 156, 156), #FFFFFF);
-   
 }
 
 .right-side{
    position: relative;
    margin-left: 15px;
-   
 }
 
 .right-side-title {
