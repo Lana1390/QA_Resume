@@ -1,10 +1,13 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@200;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
-html,
 body{
-   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'EB Garamond', serif; 
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 18px;
+   line-height: 1;
    color: #272727;
-
 }
 
 .flex-container{
@@ -12,7 +15,7 @@ body{
    flex-direction: row;
    justify-content:flex-start;
    background-color:rgb(246, 246, 246);
-   max-width: 1200px;
+   max-width: 1100px;
    align-items:inherit;
    margin-top: 5px;
    margin-left: 5px;
@@ -20,12 +23,12 @@ body{
 }
 
 .my-photo{
-   width: 300px;
+   width: 250px;
 }
 
 .left-side {
    position: relative;
-   background-image: linear-gradient(rgb(156, 156, 156), #FFFFFF);
+   background-image: linear-gradient(rgb(199, 199, 199), #FFFFFF);
 }
 
 .right-side{
@@ -40,7 +43,7 @@ body{
 .select-ln{
    font-size: 16px;
    text-align: center;
-   height: 30px;
+   height: 22px;
    width: 20%;
    border-style: solid;
    border-radius:15px;
@@ -59,16 +62,18 @@ body{
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
  }
 
-.AboutMe{
-   line-height: 22px;
-}
-
 h1{
    font-weight: bolder;
-   font-size: 25px;
+   font-size: 26px;
 }
 
 h3{
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: underline;
+}
+
+h4{
    font-size: 20px;
 }
 
