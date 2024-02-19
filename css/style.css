@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif;*/
    flex-direction: row;
    justify-content:flex-start;
    background-color:rgb(246, 246, 246);
-   max-width: 1100px;
+   max-width: 1200px;
    align-items:inherit;
    margin-top: 5px;
    margin-left: 5px;
@@ -41,7 +41,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .select-ln{
-   font-size: 16px;
+   font-size: 18px;
    text-align: center;
    height: 22px;
    width: 20%;
