@@ -45,10 +45,10 @@ i {
 }
 
 .select-ln{
-   font-size: px;
+   font-size: 18px;
    text-align: center;
-   height:1px;
-   width: px;
+   height: 20px;
+   width: 120px;
    border-style: solid;
    border-radius:15px;
    border-color: #272727;
