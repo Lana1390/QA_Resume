@@ -1,5 +1,5 @@
 body{
-   font-size: 24px;
+   font-size: 22px;
    line-height: 1;
    color: #272727;
 }
@@ -10,44 +10,46 @@ body{
    font-style: normal;
 }
 i {
-   font-size: 22px;
-   color: #5c5c5c;
+   font-size: 20px;
+   color: rgb(1, 1, 166);
 }
 
 .flex-container{
    display: flex;
    flex-direction: row;
    justify-content:flex-start;
-   background-color:rgb(255, 255, 255);
-   max-width: 1400px;
+   background-color:rgba(222, 235, 248, 0.236);
+   max-width: 1800px;
    align-items:inherit;
-   margin-top: 5px;
+   margin-top: 1px;
    margin-left: 5px;
-   box-shadow: 0 12px 16px 0 rgba(50, 50, 50, 0.24),0 17px 50px 0 rgba(117, 117, 117, 0.19);
+   box-shadow: 0 8px 16px 0 rgb(194, 222, 250),0 17px 50px 0 rgb(194, 222, 250); 
 }
 
-.my-photo{
-   width: 280px;
+.foto{
+   width: 290px;
+   color: rgb(1, 1, 166);
 }
 
 .left-side {
    position: relative;
-   background-image: linear-gradient(rgb(199, 199, 199), #FFFFFF);
+   background-image: linear-gradient(rgba(58, 86, 153, 0.236), #f6fafc)
 }
 
 .right-side{
    position: relative;
-   margin-left: 15px;
+   margin-left: 10px;
 }
 
 .right-side-title {
-   color: #bebebe;
+   font-size: 16px;
+   color: #a9abf7;
 }
 
 .select-ln{
    font-size: 18px;
    text-align: center;
-   height: 20px;
+   height: 0px;
    width: 120px;
    border-style: solid;
    border-radius:15px;
@@ -62,23 +64,28 @@ i {
    outline-color:  #272727;
    opacity: 0.7;
    border-color:#272727 ;
-   background-color: rgb(156, 156, 156);
+   background-color: rgba(50, 98, 203, 0.057);
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
  }
 
+
 h1{
    font-weight: bolder;
-   font-size: 28px;
+   font-size: 36px;
+   color: rgb(1, 1, 166);
+}
+
+
+h3{
+   font-weight: bolder;
+   font-size: 24px;
+   text-decoration: underline;
+   color: rgb(1, 1, 166);
 }
 
 h3{
-   font-weight: bold;
-   font-size: 22px;
-   text-decoration: underline;
-}
-
-h4{
    font-size: 20px;
+   color: rgb(1, 1, 166);
 }
 
 a{
