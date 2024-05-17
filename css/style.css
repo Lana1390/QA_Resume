@@ -1,12 +1,12 @@
 body{
    font-size: 14px;
-   line-height: 1;
-   color: #272727;
+   line-height: 1.2;
+   color: #333333;
 }
 
 i {
-   font-size: 18px;
-   color: rgb(1, 1, 166);
+   font-size: 12px;
+   color: #007bffc6;
 }
 
 .flex-container{
@@ -27,7 +27,7 @@ i {
 
 .left-side {
    position: relative;
-   background-image: linear-gradient(rgba(58, 86, 153, 0.236), #f6fafc)
+   background-image: linear-gradient(rgba(158, 186, 253, 0.46), #f6fafc)
 }
 
 .right-side{
@@ -37,7 +37,7 @@ i {
 
 .right-side-title {
    font-size: 16px;
-   color: #a9abf7;
+   color:#1976d254;
 }
 
 .select-ln{
@@ -66,18 +66,34 @@ i {
 h1{
    font-weight: bolder;
    font-size: 34px;
-   color: rgb(1, 1, 166);
+   color:#1976D2;
 }
 
 
 h3{
    font-size: 18px;
    text-decoration: underline;
-   color: rgb(1, 1, 166);
+   color: #1976d2f1;
 }
 
 
 a{
-   color: #272727;
+   color:#026cddef;
 }
+
+.indent{
+   text-indent: 20px;
+   margin: 0;
+}
+
+.p{
+    font-size: 16px;
+    color: #606060;
+}
+
+.left-side {
+   font-size: 16px;
+   color: #606060;
+}
+
 
